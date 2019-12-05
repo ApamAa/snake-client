@@ -8,15 +8,19 @@ const handleUserInput = function(key) {
   if (key === 'w') {
     //console.log("Up");
     connection.write('Move: up')
+    connection.write('Say: go on')
   } else if ( key === 'a') {
     //console.log("left")
     connection.write('Move: left')
+    connection.write('Move: yoohoo')
   } else if (key === 's') {
     //console.log("down")
     connection.write('Move: down')
+    connection.write('Say: wow')
   } else if (key === 'd') {
     //console.log("right")
     connection.write('Move: right')
+    connection.write('Say: yay')
   }
 
 
